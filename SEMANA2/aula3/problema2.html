@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Números positivos: Soma e Média.</h1>
+
+    <script>
+        var soma = 0; 
+        var contador = 0;
+        var n = 0;
+
+        do{
+            n = parseInt(prompt("Digite números positivos (Para se retirar, digite zero/número negativo): "));
+            contador++;
+            soma += n;
+            var media = (soma/contador);
+        }while (n > 0);
+        
+        alert(" Média: " + media);
+        alert(" QUantidade de números digitados: " + contador);
+        alert(" Soma dos números positivos: " + soma);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+ul{
+text-align: left;
+}
+
+input{
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    border: 2px solid rgb(245, 172, 138);
+    
+}
+
+h1{
+    background-color: rgb(255, 199, 192);
+    font-weight: bold;
+    color: rgb(216, 37, 73);
+ 
+}
+
+button{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px;
+    border-color:salmon;
+}

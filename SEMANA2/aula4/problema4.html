@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando CRUD</title>
+</head>
+<body>
+    <h1>Praticando CRUD em sala de aula</h1>
+
+    <button onclick="adicionar()">adicionar fruta</button>
+    <input type="text" placeholder="Digite o nome da fruta" id="fruta">
+    <p id="info"></p>
+  </body>  
+
+    <script>
+        var frutas = [];
+        function adicionar(){
+            var nomefruta = document.getElementById("fruta").value;
+            frutas.push(nomefruta);
+            document.getElementById("fruta").value = "";
+            document.getElementById("info").innerHTML = nomefruta + " adicionada com sucesso!";
+
+            
+
+
+        }
+        
+    </script>
+
+</html>

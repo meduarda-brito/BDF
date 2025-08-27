@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de pessoas</title>
+</head>
+
+<!--Deve pedir: Nome, idade e cidade-->
+<body>
+    <input type="text" placeholder="Digite seu nome" id="nome">
+    <input type="text" placeholder="Digite sua idade" id="idade">
+    <input type="text" placeholder="Digite sua cidade" id="cidade">
+    <button onclick="adicionar()">Adicionar</button>
+    <p id="info"></p>
+    
+<!--innerhtml: Definir o conteúdo Quando você usa innerHTML para obter o conteúdo de um elemento, 
+ele retorna uma string que contém todo o HTML e texto dentro desse elemento, incluindo as tags HTML. -->
+    <script>
+        var pessoa = [{nome, idade, cidade}];
+
+        function adicionar(){
+            var nome = document.getElementById("nome").value;
+            var idade = document.getElementById("idade").value;
+            var cidade = document.getElementById("cidade").value;
+
+
+        }
+    </script>
+
+</body>
+</html>
