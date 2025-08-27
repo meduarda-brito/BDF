@@ -4,50 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problema 9</title>
-    <link rel="stylesheet" href="style.css" />
-
 </head>
 <body>
     <!--Crie umapágina web que tenha uma lampada que liga, ao clicar em um botão, edesliga ao clicar em outro botao--> 
 
-    <h1>Problema 9 - Desligar e ligar lâmpada</h1>
+<button onclick="ligarluz()">Ligar Luz</button>
+<img id="luzDesligada" src="pic_bulboff.gif">
 
-    <p>Mexendo com CSS também!</p>
-
-<button onclick="document.getElementById('PrimImgDesligada').src='pic_bulbon.gif'">Ligar Luz</button>
-<img id="PrimImgDesligada" src="pic_bulboff.gif">
-<button onclick="document.getElementById('PrimImgDesligada').src='pic_bulboff.gif'">Desligar Luz</button>
-
-<br><br>
-
-<h1>Atividade 26/08/25</h1>
-<a href="https://sillyman.fandom.com/wiki/My_Melody" target="_blank">Visite o site da My Melody!<br>
-    <div class="minhadiv1"><img src="MyMelody.webp" alt="My Melody"></div>
-</a>
-
-<div class="minhadiv2">
-<table>
-    <tr> <!--Inicio linha 1-->
-        <th>Música</th> <!-- COluna 1 TITULO-->
-        <th>Cantor</th> <!-- COluna 2 TITULO-->
-    </tr> <!--Fechou linha 1-->
-    <tr>
-        <td>Colossenses e Suas Linhas de Amor</th>
-        <td>FHOP e Marco Telles</th>
-    </tr>
-</table>
-</div>
-
-<!-- 
-DÚVIDA: Dava pra usar funções ao invés do document.getElementById dentro do Onclick? Tipo algo assim
 <script>
     function ligarluz(){
-        document.getElementById(PrimImgesligada).src="pic_bulbon.gif";
+        var luzLigada = document.getElementById('luzLigada');
+        var luzaDesligada = document.getElementById('luzDesligada');
+        
+
     }
-    function desligarluz(){
-        document.getElementById(PrimImgDesligada).src="pic_bulboff.gif";
-    }
-</script> -->
+</script>
 
 </body>
 </html>
