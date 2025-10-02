@@ -1,14 +1,31 @@
 # BFD
 Exercícios da Formação Bolsa Futuro Digital
 
+SEMANA 1 - Primeiros passos: Lógica de Programação + HTML
+Início (Prof° Dunfrey)
 AULA 1 - 07/08/2025
-Atividade 1 - Minha Viagem dos Sonhos: HTML, dia 07/08/2025 (OK)
-
 AULA 2 - 12/08/2025
-Problema 1 - Pop Up: Escreva seu nome;
-Problema 2 - Pop up: Média da soma entre dois números solicitados pelo usuario;
-Problema 3 - 
-Problema 4 - 
-Problema 5 - Pop Up: 0 ou 1 (usando math.random).
+
+SEMANA 2 - 
+Aula 3
+Aula 4
+
+SEMANA 3 - 
+Aula 5
+Aula 6
+
+SEMANA 4 - 
+Aula 7.1 e 7.2 - Atividade Página em conjunto
+
+SEMANA 5 - 
+Atividade Página do projeto em conjunto 
+
+SEMANA 6 -
+Aula 8 - Página de Login do Instagram 
+Atual (Profª Ana Paula)
+Aula 9 - 
+
+
+
 
 
